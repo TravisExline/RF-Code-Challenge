@@ -1,10 +1,14 @@
 .pro-btn {
+    display: block;
+    margin: 0 auto;
     width: 4.5vw;
-    height: 2.5vh;
-    border-radius: 13px;
+    height: 3vh;
+    border-radius: 15px;
     color: white;
     background-color: blue;
     border-color: blue;
+    margin-top: 2vh;
+
 }
 
 .followers-head, .projects-head, .rank-head, .profile-location {
@@ -17,10 +21,42 @@
 }
 
 .rank-holder, .project-holder, .follower-holder {
+    margin-top: 2.5vh;
     display: inline-block;
     justify-content: center;
 }
 
 .rank-holder, .project-holder {
     margin-left: 4vw;
+}
+
+.profile-holder {
+    width: 25vw;
+    height: 45vh;
+    border-radius: 15px;
+    background-color: white;
+    margin-right: 3vw;
+    float: right;
+}
+
+.profile-name {
+    margin-top: 5vh;
+}
+
+.profile-photo {
+    width: 6vw;
+    height: 12vh;
+    margin-top: 5vh;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.profile-image-holder {
+    height: 12vh;
+    background-image: url(../imgs/mountain.jpg);
+    border-radius: 15px;
+    border: 5px solid white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

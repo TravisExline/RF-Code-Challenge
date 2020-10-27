@@ -1,14 +1,18 @@
 import React from 'react' 
 import '../style/Profile.css'
+import profilePhoto from '../imgs/cc-profile-photo.jpg'
+import heroImg from '../imgs/mountain.jpg'
 
 class Profile extends React.Component {
     render() {
         return(
             <div className="profile-holder">
-                <div>
-                    <h1 className="profile-name">Filip Martin Jose</h1>
-                    <p className="profile-location">Los Angeles</p>
+                <div className='profile-image-holder'>
+                    {/* <img src={heroImg} className='banner-img'></img> */}
+                    <img src={profilePhoto} className='profile-photo'></img>
                 </div>
+                <h1 className="profile-name">Filip Martin Jose</h1>
+                <p className="profile-location">Los Angeles</p>
                 <button className='pro-btn'>Pro Level</button>
                 <div className='follower-holder'>
                     <p className="followers-head">Followers</p>

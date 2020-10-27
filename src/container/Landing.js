@@ -6,7 +6,7 @@ import PricingOptions from '../components/PricingOptions'
 class Landing extends React.Component {
     render() {
         return(
-            <div>
+            <div className='landing-page'>
                 <Profile />
                 <PaymentOptions />
                 <PricingOptions />
