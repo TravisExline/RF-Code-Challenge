@@ -1,5 +1,5 @@
 import React from 'react' 
-import { connect } from 'react-redux'
+import {connect} from 'react-redux'
 import CreditCardStyle from '../style/CreditCard.css'
 
 class CreditCard extends React.Component {
@@ -12,8 +12,4 @@ class CreditCard extends React.Component {
     }
 }
 
-const mapStateToProps = (state) => {
-    return {paymentOptions: state.PaymentReducer}
-}
-
-export default connect(mapStateToProps) (CreditCard)
+export default  (CreditCard)

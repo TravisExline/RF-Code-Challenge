@@ -22,8 +22,8 @@
 
 /* hourly/fixed buttons keep moving outn of line without this. */
 .btn-holder {
-    padding-left: 2.2vw;
-    max-width: 15vw;
+    padding-left: 2.5vw;
+    max-width: 14vw;
 }
 
 .hourly-btn {
