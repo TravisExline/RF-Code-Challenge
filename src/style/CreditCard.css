@@ -8,7 +8,6 @@
 }
 
 .photo-background {
-    /* display: inline-block; */
     width: 4vw;
     height: 5vh;
     background-color: rgba(151, 151, 151, 0.11);
@@ -25,8 +24,8 @@
 }
 
 .payment-type {
-    /* padding-right: 29vw; */
     margin-bottom: 0;
+    padding-left: .5vw;
     font-size: 1.9vh;
     float: left;
 }
@@ -48,6 +47,6 @@
     text-align: center;
     font-size: 2vh;
     font-weight: 525;
-    margin-left: 1.5vw;
+    margin-left: 5.5vw;
     margin-bottom: 5vh;
 }
