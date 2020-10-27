@@ -53,7 +53,8 @@
     margin-top: 5vh;
     border-radius: 5px;
     font-size: 2vh;
-    opacity: 50%;
+    opacity: 40%;
+    border-color: rgba(128, 128, 128, 30%);
 }
 
 .proceed-btn {
