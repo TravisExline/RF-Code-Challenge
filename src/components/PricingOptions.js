@@ -1,6 +1,8 @@
 import React from 'react' 
 import PaymentSlider from './PaymentSlider'
 import '../style/PaymentOptions.css'
+import Clock from '../imgs/clock-time.png'
+import List from '../imgs/list.png'
 
 class PricingOptions extends React.Component {
     render() {
@@ -9,7 +11,8 @@ class PricingOptions extends React.Component {
                 <h1 className='price-setup-text'>Set up your pricing</h1>
                 <p className='price-setup-description'>Please set up your hourly or fixed rate so that the client is aware of your pricing</p>
                 <div className='btn-holder'>
-                    <button className='hourly-btn'>Hourly</button><button className='fixed-btn'>Fixed</button>
+                    <button className='hourly-btn'>
+                        <img src={Clock} className='clock'/>Hourly</button><button className='fixed-btn'><img src={List} className='list'/>Fixed</button>
                 </div>
                 <div className='slider'>
                     <PaymentSlider />

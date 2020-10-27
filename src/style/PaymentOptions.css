@@ -17,6 +17,7 @@
     height: 4.5vh;
     width: 5.5vw;
     margin-bottom: 1vh;
+    transition-duration: .5s;
 }
 
 /* hourly/fixed buttons keep moving outn of line without this. */
@@ -45,4 +46,18 @@
     opacity: 60%;
     text-align: left;
     width: 16vw;
+}
+
+.clock {
+    width: 1vw;
+    padding-right: .5vw;
+}
+
+.list {
+    width: 1vw;
+    padding-right: .5vw;
+}
+
+.hourly-btn:hover, .fixed-btn:hover {
+    border-color: royalblue;
 }
