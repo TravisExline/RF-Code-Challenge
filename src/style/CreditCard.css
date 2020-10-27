@@ -1,0 +1,51 @@
+.credit-card-holder {
+    display: inline;
+    height: 8vh;
+}
+
+.payment-type {
+    display: inline;
+}
+
+.photo-background {
+    /* display: inline-block; */
+    width: 4vw;
+    height: 5vh;
+    background-color: rgba(151, 151, 151, 0.11);
+    border-radius: 3px;
+    float: left;
+    margin-left: 15vw;
+
+}
+
+.payment-type-photo {
+    width: 2vw;
+    height: 4vh;
+    padding-top: .5vh;
+}
+
+.payment-type {
+    padding-right: 29vw;
+    margin-bottom: 0;
+    font-size: 1.9vh;
+}
+
+.cc-number {
+    font-size: 1.7vh;
+    padding-right: 26.7vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    opacity: 50%;
+}
+
+.cvc-input {
+    height: 4vh;
+    max-width: 3vw;
+    opacity: 30%;
+    border: solid 3px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 2vh;
+    font-weight: 525;
+    margin-left: 5vw;
+}

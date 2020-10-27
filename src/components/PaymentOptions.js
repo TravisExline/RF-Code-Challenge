@@ -18,16 +18,16 @@ class PaymentOptions extends React.Component {
     render() {
         return(
             <div className='payment-holder'>
-                <h1>Upgrade Your Plan</h1>
-                <p>Please make the payment to start enjoying all the features of our premium plan as soon as possible.</p>
-                <div>Business Plan Section</div>
-                <h2>Payment Details</h2>
+                <h1 className='upgrade-head'>Upgrade Your Plan</h1>
+                <p className='detail-text'>Please make the payment to start enjoying all the features of our premium plan as soon as possible.</p>
+                <div className='plan-section'>Business Plan Section</div>
+                <h2 className='payment-details-head'>Payment Details</h2>
                 {this.state.paymentTypes.map((paymentType) => (
                     <CreditCard id={paymentType.id} photo={paymentType.photo} cardNumber={paymentType.cardNumber} type={paymentType.type}/>
                 ))}
-                <a href='localhost:3000'>Add Payment Info</a>
-                <input/>
-                <button>Proceed To Payment</button>
+                <button className='add-payment-btn'>Add Payment Info</button>
+                <input className='email-input' placeholder='Email address'/>
+                <button className='proceed-btn'>Proceed To Payment</button>
             </div>
         )
     }
