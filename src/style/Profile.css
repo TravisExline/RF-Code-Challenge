@@ -1,0 +1,26 @@
+.pro-btn {
+    width: 4.5vw;
+    height: 2.5vh;
+    border-radius: 13px;
+    color: white;
+    background-color: blue;
+    border-color: blue;
+}
+
+.followers-head, .projects-head, .rank-head, .profile-location {
+    opacity: 60%;
+    font-size:1.5vh;
+}
+
+.follower-count, .projects-count, .rank-count, .profile-name {
+    font-size: 2.5vh;
+}
+
+.rank-holder, .project-holder, .follower-holder {
+    display: inline-block;
+    justify-content: center;
+}
+
+.rank-holder, .project-holder {
+    margin-left: 4vw;
+}
