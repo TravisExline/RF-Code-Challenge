@@ -8,7 +8,7 @@ class BusinessPlan extends React.Component {
             <div className='plan-holder'>
                 <img src={Boat} className='boat'/>
                 <h2 className='plan-type'>Small Business</h2>
-                <button className='change-btn'>CHANGE PLAN</button>  
+                <button className='change-btn'>CHANGE PLAN</button> 
                 <h1 className='price'>$8,530</h1>             
             </div>
         )

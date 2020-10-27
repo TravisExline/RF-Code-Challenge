@@ -22,9 +22,7 @@ class PaymentOptions extends React.Component {
             <div className='payment-holder'>
                 <h1 className='upgrade-head'>Upgrade Your Plan</h1>
                 <p className='detail-text'>Please make the payment to start enjoying all the features of our premium plan as soon as possible.</p>
-                <div className='plan-section'>
-                    <BusinessPlan />
-                </div>
+                <BusinessPlan />
                 <h2 className='payment-details-head'>Payment Details</h2>
                 {this.state.paymentTypes.map((paymentType) => (
                     <CreditCard id={paymentType.id} photo={paymentType.photo} cardNumber={paymentType.cardNumber} type={paymentType.type}/>
