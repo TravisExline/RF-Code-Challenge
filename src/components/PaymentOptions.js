@@ -3,6 +3,7 @@ import CreditCard from './CreditCard'
 import MasterCard from '../imgs/mastercard.png'
 import V from '../imgs/v.png'
 import '../style/PaymentOptions.css'
+import arrow from '../imgs/arrow.png'
 
 class PaymentOptions extends React.Component {
     constructor() {
@@ -25,9 +26,11 @@ class PaymentOptions extends React.Component {
                 {this.state.paymentTypes.map((paymentType) => (
                     <CreditCard id={paymentType.id} photo={paymentType.photo} cardNumber={paymentType.cardNumber} type={paymentType.type}/>
                 ))}
-                <button className='add-payment-btn'>Add Payment Info</button>
-                <input className='email-input' placeholder='Email address'/>
-                <button className='proceed-btn'>Proceed To Payment</button>
+                <button className='add-payment-btn'>ADD PAYMENT METHOD</button>
+                <div className='input-div'>
+                    <input className='email-input' placeholder='Email address'/>
+                </div>
+                <button className='proceed-btn'>Proceed to payment<img src={arrow} className='arrow'/></button>
             </div>
         )
     }

@@ -5,17 +5,21 @@
     background-color: white;
     border-radius: 15px;
     margin-top: 3vh;
+    align-content: flex-start;
+    flex-direction: column;
+    display: flex;
 }
 
 .upgrade-head, .detail-text, .plan-section{
     text-align: left;
-    padding-left: 10vw;
+    max-width: 35vw;
+    padding-left: 9.7vw;
     margin-bottom: 0;
 }
 
 .payment-details-head {
     text-align: left;
-    padding-left: 10vw;
+    padding-left: 9.7vw;
     margin-top: 0;
     margin-bottom: 4vh;
 }
@@ -29,4 +33,41 @@
     font: 2.5vh;
     opacity: 50%;
     margin-bottom: 3vh;
+}
+
+.add-payment-btn {
+    font-size: 1.5vh;
+    background-color: white;
+    border: none;
+    color: Blue;
+    margin-right: 25.3vw;
+}
+
+.input-div {
+   align-content: center;
+}
+
+.email-input {
+    width: 35vw;
+    height: 6vh;
+    margin-top: 5vh;
+    border-radius: 5px;
+    font-size: 2vh;
+    opacity: 50%;
+}
+
+.proceed-btn {
+    width: 35.5vw;
+    height: 7vh;
+    font-size: 2vh;
+    margin-left: 9.7vw;
+    margin-top: 5vh;
+    color: white;
+    background-color: rgb(33, 33, 241);
+    border-radius: 5px;
+}
+
+.arrow {
+    width: 1.5vw;
+    padding-left: 10px;
 }

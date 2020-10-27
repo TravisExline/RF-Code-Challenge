@@ -11,8 +11,8 @@ class CreditCard extends React.Component {
                 </div>
                 <div className='info-holder'>
                     <h1 className='payment-type'>{this.props.type}</h1>
-                    <p className='cc-number'>{this.props.cardNumber}</p>
                     <input className='cvc-input' placeholder='CVC'/>
+                    <p className='cc-number'>{this.props.cardNumber}</p>
                 </div>
             </div>
         )

@@ -14,7 +14,7 @@
     background-color: rgba(151, 151, 151, 0.11);
     border-radius: 3px;
     float: left;
-    margin-left: 15vw;
+    margin-left: 9.7vw;
 
 }
 
@@ -25,17 +25,18 @@
 }
 
 .payment-type {
-    padding-right: 29vw;
+    /* padding-right: 29vw; */
     margin-bottom: 0;
     font-size: 1.9vh;
+    float: left;
 }
 
 .cc-number {
     font-size: 1.7vh;
-    padding-right: 26.7vw;
-    margin-top: 0;
+    margin-top: 4vh;
     margin-bottom: 0;
     opacity: 50%;
+    float: left;
 }
 
 .cvc-input {
@@ -47,5 +48,6 @@
     text-align: center;
     font-size: 2vh;
     font-weight: 525;
-    margin-left: 5vw;
+    margin-left: 1.5vw;
+    margin-bottom: 5vh;
 }
