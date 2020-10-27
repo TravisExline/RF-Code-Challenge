@@ -36,16 +36,17 @@
 }
 
 .rank-holder, .project-holder {
-    margin-left: 4vw;
+    margin-left: 3vw;
 }
 
 .profile-holder {
-    width: 23vw;
+    width: 20vw;
     height: 45vh;
     border-radius: 15px;
     background-color: white;
     margin-right: 5vw;
     float: right;
+    margin-top: 5vh;
 }
 
 .profile-name {
