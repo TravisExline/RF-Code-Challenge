@@ -1,11 +1,11 @@
 import React from 'react'
-import Slider from 'react-rangeslider'
+import '../style/PaymentSlider.css'
 
 class PaymentSlider extends React.Component {
     constructor () {
         super()
         this.state = {
-            value: 0
+            value: 180
         }
         this.handleChange = this.handleChange.bind(this)
     } 
@@ -19,7 +19,7 @@ class PaymentSlider extends React.Component {
     render() {
         return(
             <div className='slider-holder'>
-                <div className='slider-amount'>{this.state.value}</div>
+                <div className='slider-value'><p id='dollars'>$</p>{this.state.value}</div>
                 <label className='slider'>
                     <input
                         id="typeinp"
@@ -30,6 +30,10 @@ class PaymentSlider extends React.Component {
                         onChange={this.handleChange}
                         step='1' />
                 </label>
+                <div>
+                    <p className='min'>$20</p>
+                    <p className='max'>$300</p>
+                </div>
             </div>
         )
     }

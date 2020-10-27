@@ -1,0 +1,31 @@
+#typeinp {
+    width: 15vw;
+}
+
+.slider-value {
+    font-size: 1.6vw;
+    margin-right: 11vw;
+    margin-bottom: -1.5vh;
+    margin-top: 1.8vh;
+}
+
+#dollars {
+    display: inline-block;
+    font-size: 1.5vh;
+    opacity: 40%;
+}
+
+.min, .max {
+    display: inline-block;
+    opacity: 40%;
+    margin-top: 0;
+}
+
+.min {
+    margin-right: 10vw;
+}
+
+.max {
+    margin-left: 2vw;
+}
+
