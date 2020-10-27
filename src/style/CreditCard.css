@@ -26,22 +26,22 @@
 .payment-type {
     margin-bottom: 0;
     margin-top: 0;
-    padding-left: .5vw;
     font-size: 1.9vh;
-    float: left;
+    padding-right: 1.5vw;
 }
 
-/* .cc-number-holder {
+.test-holder {
     float: left;
-    padding-top: 2.5vh;
-} */
+    
+}
+
 
 .cc-number {
     font-size: 1.7vh;
     margin-top: 0;
-    margin-top: 4vh;
     opacity: 50%;
-    float: left;
+    padding-left: 1vw;
+    /* float: left; */
 }
 
 .cvc-input {
@@ -53,6 +53,6 @@
     text-align: center;
     font-size: 2vh;
     font-weight: 525;
-    margin-left: 5.5vw;
+    margin-left: 10vw;
     margin-bottom: 5vh;
 }

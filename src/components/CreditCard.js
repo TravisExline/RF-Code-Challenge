@@ -10,9 +10,11 @@ class CreditCard extends React.Component {
                     <img src={this.props.photo} className='payment-type-photo'/>
                 </div>
                 <div className='info-holder'>
-                    <h1 className='payment-type'>{this.props.type}</h1>
-                    <input className='cvc-input' placeholder='CVC'/>
+                    <div className='test-holder'>
+                        <h1 className='payment-type'>{this.props.type}</h1>
                         <p className='cc-number'>{this.props.cardNumber}</p>
+                    </div>
+                    <input className='cvc-input' placeholder='CVC'/>
                 </div>
             </div>
         )
