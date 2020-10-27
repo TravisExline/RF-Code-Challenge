@@ -8,7 +8,6 @@ class Profile extends React.Component {
         return(
             <div className="profile-holder">
                 <div className='profile-image-holder'>
-                    {/* <img src={heroImg} className='banner-img'></img> */}
                     <img src={profilePhoto} className='profile-photo'></img>
                 </div>
                 <h1 className="profile-name">Filip Martin Jose</h1>
