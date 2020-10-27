@@ -1,0 +1,48 @@
+.pricing-holder {
+    position: absolute;
+    bottom: 0;
+    width: 20vw;
+    height: 35vh;
+    border-radius: 15px;
+    background-color: white;
+    margin-top: 45vh;
+    margin-left: 75vw;
+    margin-bottom: 10vh;
+}
+
+.hourly-btn, .fixed-btn {
+    background-color: white;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 30%);
+    height: 4.5vh;
+    width: 5.5vw;
+    margin-bottom: 1vh;
+}
+
+/* hourly/fixed buttons keep moving outn of line without this. */
+.btn-holder {
+    padding-left: 2.2vw;
+    max-width: 15vw;
+}
+
+.hourly-btn {
+    margin-right: 2vw;
+}
+
+.price-setup-text, .price-setup-description {
+    float: left;
+    margin-left: 1vw;
+}
+
+.price-setup-text {
+    margin-top: 3vh;
+    font-size: 2vh;
+}
+
+.price-setup-description {
+    margin-top: 0;
+    margin-bottom: 3vh;
+    opacity: 60%;
+    text-align: left;
+    width: 16vw;
+}

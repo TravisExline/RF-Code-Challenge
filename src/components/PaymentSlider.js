@@ -18,8 +18,9 @@ class PaymentSlider extends React.Component {
 
     render() {
         return(
-            <div className='slider'>
-                <label>
+            <div className='slider-holder'>
+                <div className='slider-amount'>{this.state.value}</div>
+                <label className='slider'>
                     <input
                         id="typeinp"
                         type='range'
@@ -28,7 +29,6 @@ class PaymentSlider extends React.Component {
                         value={this.state.value}
                         onChange={this.handleChange}
                         step='1' />
-                    {this.state.value}
                 </label>
             </div>
         )
